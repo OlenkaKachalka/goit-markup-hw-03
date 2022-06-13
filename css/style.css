@@ -46,7 +46,7 @@ body {
     margin: 0 auto;
     padding-left: 15px;
     padding-right: 15px;
-    /*--------------outline: 1px solid red;--------------------*/
+    /*-------outline: 1px solid red;------------*/
 }
 
 .container-portfolio {
@@ -202,7 +202,8 @@ body {
 
 .slogan-container {
   background-color: #2F303A;
-  padding: 200px 430px 200px 430px; 
+  padding-top: 200px; 
+  padding-bottom: 200px;
 }
 
 
@@ -273,29 +274,33 @@ body {
 .team {
     background-color:#F5F4FA;
     padding-bottom: 124px;
+    padding-top: 94px;
 }
 
 .team-main-title {
     font-weight: 700;
     font-size: 36px;
-    line-height: 1.17px;
+    line-height: 1.17;
     text-align: center;
     letter-spacing: 0.03em;
     color: var(--header-color);
-    padding-top: 94px;
     margin-bottom: 50px;
     
 }
 
+.team-main {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
 .team-title {
     font-weight: 500;
-font-size: 16px;
-line-height: 1.9px;
-text-align: center;
-letter-spacing: 0.03em;
-color: var(--header-color);
-margin-top: 30px;
-margin-bottom: 10px;
+    font-size: 16px;
+    line-height: 1.9;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--header-color);
+    margin: 10px;
 }
 
 .team-after-title {
@@ -336,17 +341,18 @@ margin-bottom: 10px;
     text-align: center;
     letter-spacing: 0.03em;
     color: var(--header-color);
-    margin-right: auto;
-    margin-left: auto;
-    width: 128px;
     height: 38px;
-    left: 576px;
-    top: 174px;
+    padding-left: 22px;
+    padding-right: 22px;
 
     background: #F5F4FA;
     border-radius: 4px;
     border-color: #F5F4FA;
     border-style: none;
+}
+
+.portfolio-title-main {
+    padding: 20px 24px 20px 24px;
 }
 
 .portfolio-titles {
@@ -383,9 +389,6 @@ margin-bottom: 10px;
 .portfolio-item {
     
     width: 370px;
-    height: 404px;
-    left: 215px;
-    top: 262px;
     background: #FFFFFF;
     border: 1px solid #EEEEEE;
     margin-right: 30px;
@@ -433,19 +436,19 @@ margin-bottom: 10px;
  .footer-tel {
     font-style: normal;
     font-size: 14px;
-    line-height: 1.14;
-    letter-spacing: 0.02em;
-    color: var(--add-colar);
-    font-weight: 500;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+    font-weight: 400;
     }
     
 .footer-mail {
     font-style: normal;
     font-size: 14px;
-    line-height: 1.14;
-    letter-spacing: 0.02em;
-    color: var(--add-colar);
-    font-weight: 500;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+    font-weight: 400;
 }
  
 .footer-address {
